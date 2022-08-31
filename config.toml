@@ -1,0 +1,194 @@
+baseURL = 'http://example.org/'
+title = 'iDiane'
+themesDir = "themes"
+theme = ['loveit', 'gallery']
+
+defaultContentLanguage = "fr"
+languageCode = "fr"
+languageName = "Français"
+
+enableRobotsTXT = false
+enableGitInfo = false
+enableEmoji = true
+
+[author]
+  name = "Diane Francoz"
+  email = "dianeisabelle.francoz@gmail.com"
+  ## link = ""
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "accueil"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Accueil"
+    url = "/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 1
+    identifier = "galerie"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Galerie"
+    url = "/galerie/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "composition"
+    pre = ""
+    post = ""
+    name = "Composition"
+    url = "/composition/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "pedagogie"
+    pre = ""
+    post = ""
+    name = "Pédagogie"
+    url = "/pedagogie/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "projets"
+    pre = ""
+    post = ""
+    name = "Projets"
+    url = "/projets/"
+    title = ""
+
+
+
+[params]
+  # site default theme ["auto", "light", "dark"]
+  defaultTheme = "light"
+  # public git repo url only then enableGitInfo is true
+  # gitRepo = ""
+  # which hash function used for SRI, when empty, no SRI is used
+  # ["sha256", "sha384", "sha512", "md5"]
+  # ["sha256", "sha384", "sha512", "md5"]
+  fingerprint = ""
+  # date format
+  dateFormat = "18-06-2022"
+  # website title for Open Graph and Twitter Cards
+  title = "iDiane"
+  # website description for RSS, SEO, Open Graph and Twitter Cards
+  description = "Le site web de Diane"
+  # website images for Open Graph and Twitter Cards
+  # images = ["/logo.png"]
+  custom_css = ["assets/css/*"]
+
+
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = ""
+      # title name
+      name = "iDiane" ## header
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = "<i class='far fa-guitar fa-fw' aria-hidden='true'></i>"
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # whether to use typeit animation for title name
+      typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    custom = ""
+    # whether to show Hugo and theme info
+    hugo = false
+    # whether to show copyright info
+    copyright = true
+    # whether to show the author
+    author = true
+    # site creation time
+    since = 2022
+    # license info (HTML format is supported)
+    # license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  # Section (all posts) page config
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 20
+    # date format (month and day)
+    dateFormat = "18-06"
+    # amount of RSS pages
+    rss = 10
+
+  # List (category or tag) page config
+  [params.list]
+    # special amount of posts in each list page
+    # list 页面每页显示文章数量
+    paginate = 20
+    # date format (month and day)
+    # 日期格式 (月和日)
+    dateFormat = "01-02"
+    # amount of RSS pages
+    # RSS 文章数目
+    rss = 10
+
+  # App icon config
+  [params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "LoveIt"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-11 tile color
+    tileColor = "#da532c"
+
+  # Search config
+  [params.search]
+    enable = false
+
+  # Home page config
+  [params.home]
+    # Home page profile
+    [params.home.profile]
+      enable = true
+      # Gravatar Email for preferred avatar in home page
+      gravatarEmail = ""
+      # URL of avatar shown in home page
+      avatarURL = ""
+      # title shown in home page (HTML format is supported)
+      title = "Bienvenue sur mon site web !"
+      # subtitle shown in home page (HTML format is supported)
+      subtitle = ""
+      # whether to use typeit animation for subtitle
+      typeit = false
+      # whether to show social links
+      social = false
+      # disclaimer (HTML format is supported)
+      disclaimer = ""
+    # Home page posts
+    [params.home.posts]
+      enable = true
+      # special amount of posts in each home posts page
+      paginate = 6
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

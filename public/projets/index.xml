@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projets on iDiane</title>
+    <link>http://example.org/projets/</link>
+    <description>Recent content in Projets on iDiane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <managingEditor>dianeisabelle.francoz@gmail.com (Diane Francoz)</managingEditor>
+    <webMaster>dianeisabelle.francoz@gmail.com (Diane Francoz)</webMaster>
+    <lastBuildDate>Tue, 30 Aug 2022 21:16:08 +0200</lastBuildDate><atom:link href="http://example.org/projets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Petite Diane</title>
+      <link>http://example.org/projets/petitediane/</link>
+      <pubDate>Tue, 30 Aug 2022 22:44:45 +0200</pubDate>
+      <author>dianeisabelle.francoz@gmail.com (Diane Francoz)</author>
+      <guid>http://example.org/projets/petitediane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AstroNots</title>
+      <link>http://example.org/projets/astronots/</link>
+      <pubDate>Tue, 30 Aug 2022 22:37:44 +0200</pubDate>
+      <author>dianeisabelle.francoz@gmail.com (Diane Francoz)</author>
+      <guid>http://example.org/projets/astronots/</guid>
+      <description>Ipsum deserunt et do et est do. Eu amet est commodo esse non. Consectetur sint magna dolore tempor. Voluptate minim veniam deserunt ut magna ut. Irure labore sunt ut ex occaecat exercitation. Ullamco do nisi aliqua in do magna magna mollit nostrud laboris et do ex.
+Culpa enim qui ex esse culpa velit adipisicing ex do laborum consectetur nisi reprehenderit in. Qui nostrud enim adipisicing velit aliqua nulla et officia id pariatur.</description>
+    </item>
+    
+    <item>
+      <title>Free In My Head</title>
+      <link>http://example.org/projets/freeinmyhead/</link>
+      <pubDate>Tue, 30 Aug 2022 22:36:25 +0200</pubDate>
+      <author>dianeisabelle.francoz@gmail.com (Diane Francoz)</author>
+      <guid>http://example.org/projets/freeinmyhead/</guid>
+      <description>Ad labore sunt id irure deserunt ipsum pariatur nisi magna velit cupidatat. Amet enim culpa magna fugiat nulla. Anim pariatur occaecat excepteur sunt do.
+Minim ea cillum in nisi consectetur. Eiusmod exercitation labore sunt sit Lorem nisi minim irure enim anim irure. In ad quis duis sunt. Lorem ipsum cillum mollit sunt ex elit velit amet consequat sunt nulla. Ullamco exercitation culpa aliquip dolore non amet laborum. Ex et id in sit duis irure dolore dolore.</description>
+    </item>
+    
+  </channel>
+</rss>
