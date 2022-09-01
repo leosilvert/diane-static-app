@@ -5,6 +5,8 @@ date: 2022-08-30T21:15:25+02:00
 
 ### Free In My Head
 
+{{< audio src="audio/guitare_instrumental_audio.m4a">}}
+
 {{< video id="-93rYWBapRI" title="Free In My Head">}}
 
 Hail numbs my face,  
@@ -163,5 +165,3 @@ Or i find you in my voice
 And i break into a smile  
 Even if it’s bitter sweet  
 ‘Cause only memories….
-
-<!-- {{< audio src="/assets/musics/guitare_instrumental_audio.m4a">}} -->
