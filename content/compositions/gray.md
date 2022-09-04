@@ -9,7 +9,7 @@ Le gris peux être une étape, une transition, mais pas une destination. A reste
 
 <!--more-->
 
-<!-- {{< audio src="audio/gray.m4a">}} -->
+{{< audio src="audio/gray.m4a">}}
 
 #### Lyrics
 
