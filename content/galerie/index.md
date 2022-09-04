@@ -1,5 +1,5 @@
 ---
-title: 'Galerie'
+title: "Galerie"
 date: 2022-08-30T21:15:14+02:00
 ---
 
@@ -7,7 +7,7 @@ Ci-dessous quelques-unes de mes réalisations graphiques : peintures numériques
 
 {{< gallery
   match="images/*"
-  sortOrder="desc"
+  sortOrder="asc"
   rowHeight="300"
   margins="5"
   thumbnailHoverEffect="enlarge"

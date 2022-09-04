@@ -42,11 +42,11 @@ enableEmoji = true
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "composition"
+    identifier = "compositions"
     pre = ""
     post = ""
-    name = "Composition"
-    url = "/composition/"
+    name = "Compositions"
+    url = "/compositions/"
     title = ""
   [[menu.main]]
     weight = 3
